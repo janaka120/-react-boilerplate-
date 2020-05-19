@@ -1,29 +1,28 @@
-# README #
+# AVATAR_IN ADMIN DASHBOARD APPLICATION #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository is for the front-end web application for administrators. 
 
-### What is this repository for? ###
+## Project setup ##
+* Clone this repository.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Install dependencies
+```
+npm install
+```
 
-### How do I get set up? ###
+### Development ###
+Start the application:
+```
+npm start
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Project will be run in webpack-dev-server
+* Hot reloading is enabled. 
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Production ###
+Build for production release. 
+```
+npm run build
+```
+* Script will generate the bundle.js file in dist folder. 
