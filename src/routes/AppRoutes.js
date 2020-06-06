@@ -8,15 +8,15 @@ import AuthRoutes from './AuthRoutes';
 
 export default function AppRouter() {
   return (
-      <Router>
-          <div>
-            <Nav />
-            <Switch>
-              <Route path='/' exact component={HomeComponent} />
-              <Route path='/about' component={AboutComponent} />
-              {AuthRoutes}
-            </Switch>
-          </div>
-      </Router>
+    <Router>
+      <div>
+        <Nav />
+        <Switch>
+          <Route path='/' exact component={HomeComponent} />
+          <Route path='/about' component={AboutComponent} />
+          {AuthRoutes}
+        </Switch>
+      </div>
+    </Router>
   );
 }
